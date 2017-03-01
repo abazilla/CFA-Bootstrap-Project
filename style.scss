@@ -1,0 +1,205 @@
+clear-padding {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   color: inherit;
+}
+
+a:hover {
+   color: inherit;
+   text-decoration: underline;
+}
+
+.navbar-nav>li>a {
+   color: rgba(255,255,255,0.7);
+}
+
+html {
+   width: 100%;
+
+}
+
+.navbar-nav>li>a:hover {
+   color: rgba(255,255,255,1);
+   text-decoration: underline;
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+
+.active {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+body {
+   background-color: #250F34;
+   text-align: center;
+   color: white;
+   font-family: "Helvetica Neue";
+   font-weight: lighter;
+   letter-spacing: 1px;
+}
+
+.bold {
+   font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-weight: lighter;
+}
+
+h1 {
+   font-size: 70px;
+}
+
+.container {
+   padding: 2em 0px;
+}
+
+.add-padding {
+   padding: 15px 0px;
+}
+
+.approachable-adjust {
+   padding-bottom: 150px;
+}
+
+.approachable-adjust2 {
+   padding-top: 50px;
+}
+
+header {
+   padding: 7em;
+}
+
+header h1, header h3, header button, header h5 {
+   margin: 1.5em;
+}
+
+.planet {
+   margin-top: -500px;
+}
+
+.btn {
+   padding: 5px 25px;
+   border-radius: 25px;
+   text-shadow: 0px;
+   color: white;
+   font-weight: lighter;
+   font-size: 16px;
+}
+
+.btn:hover {
+   color: inherit;
+}
+
+.btn-transparent {
+   background-color: transparent;
+   border: 1px solid white;
+}
+
+.btn-transparent:hover {
+   color: black;
+   background-color: white;
+}
+
+.btn-color {
+   background: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+}
+
+.btn-color:hover {
+   background-color: white;
+   color: white
+}
+
+.white-bg {
+   background-color: white;
+   color: black;
+}
+
+.grey-bg {
+   background-color: #F6F4F8;
+   color: black;
+}
+
+.color-main {
+   background: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+}
+
+.color-blue {
+   background: linear-gradient(to right, rgba(43,187,188,1) 0%, rgba(18,129,177,1) 100%);
+}
+
+.color-purp {
+   background: linear-gradient(to right, rgba(87,14,130,1) 0%, rgba(125,19,139,1) 100%);
+}
+
+.navbar-nav {
+   display: inline-block;
+   float:none;
+}
+
+.navbar-center {
+   text-align: center;
+}
+
+.color-padding {
+   padding: 5em;
+   border: 5px solid #250F34;
+}
+
+p {
+   margin: 1.5em;
+   /*color: rgba(255,255,255,0.8);*/
+}
+
+.super-approachable {
+   position: relative;
+   width: 90%;
+   margin-top: -140px;
+   margin-bottom: -140px;
+   border: 0px solid black;
+   padding-top: 0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.big {
+   font-size: 60px;
+   padding: 25px 0px;
+}
+
+.bigger{
+   font-size: 100px;
+   padding: 25px 0px;
+}
+
+.biggest{
+   font-size: 150px;
+   padding: 25px 0px;
+}
+
+.thick {
+   border-top: 0px;
+   height: 4px;
+   margin: 0px;
+}
+
+.special {
+   font-size: 70px;
+   color: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+}
+
+footer {
+   margin: 2em 0;
+}
+
+@media only screen and (max-width: 991px) {
+   .moon {
+      width: 200px;
+      height: 200px;
+   }
+}
