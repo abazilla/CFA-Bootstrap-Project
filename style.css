@@ -123,6 +123,10 @@ p {
   margin: 1.5em;
   /*color: rgba(255,255,255,0.8);*/ }
 
+.flex-child {
+  flex-wrap: wrap;
+  flex-grow: 1; }
+
 .super-approachable {
   position: relative;
   width: 90%;

@@ -1,3 +1,8 @@
+$primary-gradient: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+$blue-gradient: linear-gradient(to right, rgba(43,187,188,1) 0%, rgba(18,129,177,1) 100%);
+$purple-gradient: linear-gradient(to right, rgba(87,14,130,1) 0%, rgba(125,19,139,1) 100%);
+
+
 clear-padding {
    margin: 0;
    padding: 0;
@@ -108,7 +113,7 @@ header h1, header h3, header button, header h5 {
 }
 
 .btn-color {
-   background: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+   background: $primary-gradient;
 }
 
 .btn-color:hover {
@@ -127,20 +132,20 @@ header h1, header h3, header button, header h5 {
 }
 
 .color-main {
-   background: linear-gradient(to right, rgba(219,18,100,1) 0%, rgba(158,26,129,1) 100%);
+   background: $primary-gradient;
 }
 
 .color-blue {
-   background: linear-gradient(to right, rgba(43,187,188,1) 0%, rgba(18,129,177,1) 100%);
+   background: $blue-gradient;
 }
 
 .color-purp {
-   background: linear-gradient(to right, rgba(87,14,130,1) 0%, rgba(125,19,139,1) 100%);
+   background: $purple-gradient;
 }
 
 .navbar-nav {
    display: inline-block;
-   float:none;
+   float: none;
 }
 
 .navbar-center {
@@ -155,6 +160,15 @@ header h1, header h3, header button, header h5 {
 p {
    margin: 1.5em;
    /*color: rgba(255,255,255,0.8);*/
+}
+
+.flex-container {
+//    display: flex;
+}
+
+.flex-child {
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .super-approachable {
